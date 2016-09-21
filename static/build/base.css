@@ -2133,7 +2133,7 @@ textarea {
 }
 a {
   cursor: pointer;
-  color: #486e9b;
+  color: #b3a2a2;
   text-decoration: none;
 }
 a:hover {
@@ -2143,7 +2143,7 @@ hr {
   margin-top: 15px;
   margin-bottom: 15px;
   border: 0;
-  border-top: 2px solid #e8edf2;
+  border-top: 2px solid #ededed;
 }
 p {
   margin: 0 0 10px;
@@ -2272,11 +2272,11 @@ blockquote ol:last-child {
   }
   .sideNav .Dropdown--select .Dropdown-menu > li > a {
     padding: 8px 0 8px 30px;
-    color: #708aa9;
+    color: #8c8c8c;
   }
   .sideNav .Dropdown--select .Dropdown-menu > li > a:hover {
     background: none;
-    color: #486e9b;
+    color: #b3a2a2;
     text-decoration: none;
   }
   .sideNav .Dropdown--select .Dropdown-menu > li > a .Button-icon {
@@ -2287,7 +2287,7 @@ blockquote ol:last-child {
   }
   .sideNav .Dropdown--select .Dropdown-menu > li.active > a {
     background: none;
-    color: #536F90;
+    color: #aaa;
     font-weight: bold;
   }
   .sideNav .Dropdown--select .Dropdown-menu > .Dropdown-separator {
@@ -2306,7 +2306,7 @@ blockquote ol:last-child {
   left: 0;
   right: 0;
   margin-top: 15px;
-  border-bottom: 1px solid #e8edf2;
+  border-bottom: 1px solid #ededed;
 }
 .sideNav--horizontal > ul > li,
 .sideNav--horizontal .Dropdown-menu > li {
@@ -2339,7 +2339,7 @@ blockquote ol:last-child {
     left: 0;
     right: 0;
     margin-top: 15px;
-    border-bottom: 1px solid #e8edf2;
+    border-bottom: 1px solid #ededed;
   }
   .sideNav > ul > li,
   .sideNav .Dropdown-menu > li {
@@ -2409,7 +2409,7 @@ blockquote ol:last-child {
   left: 0;
   right: 0;
   z-index: 1000;
-  border-bottom: 1px solid #e8edf2;
+  border-bottom: 1px solid #ededed;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   -webkit-transition: box-shadow 0.2s, -webkit-transform 0.2s;
@@ -2483,7 +2483,7 @@ blockquote ol:last-child {
   }
   .App-primaryControl > .Button,
   .App-backControl > .Button {
-    color: #708aa9 !important;
+    color: #8c8c8c !important;
   }
   .App-primaryControl > .Button .Button-icon,
   .App-backControl > .Button .Button-icon {
@@ -2499,14 +2499,14 @@ blockquote ol:last-child {
     left: 50%;
     margin-left: -100px;
     text-align: center;
-    color: #536F90 !important;
+    color: #aaa !important;
   }
   .App-titleControl,
   .App-titleControl > .Button {
     font-size: 16px;
   }
   .App-titleControl > .Button {
-    color: #536F90;
+    color: #aaa;
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -2557,7 +2557,7 @@ blockquote ol:last-child {
     bottom: 0;
     left: 0;
     z-index: 1040;
-    background-color: rgba(83, 111, 144, 0.9);
+    background-color: rgba(170, 170, 170, 0.9);
     opacity: 0;
     -webkit-transition: 0.2s opacity;
     -o-transition: 0.2s opacity;
@@ -2659,7 +2659,7 @@ blockquote ol:last-child {
   }
 }
 .App-content {
-  border-top: 1px solid #e8edf2;
+  border-top: 1px solid #ededed;
 }
 @media (max-width: 767px) {
   .App-content {
@@ -2752,7 +2752,7 @@ blockquote ol:last-child {
   color: #fff;
   text-align: center;
   vertical-align: top;
-  background-color: #e8edf2;
+  background-color: #ededed;
   font-weight: normal;
   width: 48px;
   height: 48px;
@@ -2772,7 +2772,7 @@ blockquote ol:last-child {
   height: 22px;
   border-radius: 11px;
   line-height: 21px;
-  background: #708aa9;
+  background: #8c8c8c;
   color: #fff;
   display: inline-block;
   vertical-align: middle;
@@ -2844,24 +2844,24 @@ blockquote ol:last-child {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #708aa9;
-  background: #e8edf2;
+  color: #8c8c8c;
+  background: #ededed;
   border: 0;
 }
 .Button:hover,
 .Button:focus,
 .Button.focus {
-  background-color: #d8e0e9;
+  background-color: #e0e0e0;
 }
 .Button:active,
 .Button.active,
 .open > .Dropdown-toggle.Button {
-  background-color: #c8d3df;
+  background-color: #d4d4d4;
 }
 .Button.disabled,
 .Button[disabled],
 fieldset[disabled] .Button {
-  background: #e8edf2;
+  background: #ededed;
 }
 .Button:hover {
   text-decoration: none;
@@ -2917,7 +2917,7 @@ fieldset[disabled] a.Button {
 }
 .Button--link:hover {
   background: transparent !important;
-  color: #486e9b;
+  color: #b3a2a2;
 }
 .Button--link:active,
 .Button--link.active,
@@ -2927,7 +2927,7 @@ fieldset[disabled] a.Button {
   background: transparent !important;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: #486e9b;
+  color: #b3a2a2;
 }
 .Button--text {
   background: transparent !important;
@@ -2946,7 +2946,7 @@ fieldset[disabled] a.Button {
 }
 .Button--primary {
   color: #fff;
-  background: #536F90;
+  background: #aaa;
   font-weight: bold;
   padding-left: 20px;
   padding-right: 20px;
@@ -2954,17 +2954,17 @@ fieldset[disabled] a.Button {
 .Button--primary:hover,
 .Button--primary:focus,
 .Button--primary.focus {
-  background-color: #4a6380;
+  background-color: #9d9d9d;
 }
 .Button--primary:active,
 .Button--primary.active,
 .open > .Dropdown-toggle.Button--primary {
-  background-color: #405670;
+  background-color: #919191;
 }
 .Button--primary.disabled,
 .Button--primary[disabled],
 fieldset[disabled] .Button--primary {
-  background: #536F90;
+  background: #aaa;
 }
 .Button--primary .Button-icon {
   display: none;
@@ -3072,7 +3072,7 @@ fieldset[disabled] .Button--danger {
   padding: 3px;
   position: relative;
   border-radius: 14px;
-  background: #e8edf2;
+  background: #ededed;
   -webkit-transition: background-color 0.2s;
   -o-transition: background-color 0.2s;
   transition: background-color 0.2s;
@@ -3176,7 +3176,7 @@ fieldset[disabled] .Button--danger {
 }
 .Dropdown-menu > li > a:hover,
 .Dropdown-menu > li > button:hover {
-  background: #e8edf2;
+  background: #ededed;
 }
 .Dropdown-menu > li > a:focus,
 .Dropdown-menu > li > button:focus {
@@ -3184,7 +3184,7 @@ fieldset[disabled] .Button--danger {
 }
 .Dropdown-menu > li.active > a,
 .Dropdown-menu > li.active > button {
-  background: #e8edf2;
+  background: #ededed;
 }
 .Dropdown-menu--top {
   top: auto;
@@ -3201,7 +3201,7 @@ fieldset[disabled] .Button--danger {
   font-size: 12px;
   font-weight: bold;
   margin-top: 8px;
-  border-top: 1px solid #e8edf2;
+  border-top: 1px solid #ededed;
   white-space: nowrap;
 }
 .Dropdown-header:first-child {
@@ -3210,7 +3210,7 @@ fieldset[disabled] .Button--danger {
 }
 .Dropdown-separator {
   margin: 8px 0;
-  background-color: #e8edf2;
+  background-color: #ededed;
   height: 1px;
 }
 .dropdown-backdrop {
@@ -3286,13 +3286,13 @@ fieldset[disabled] .Button--danger {
   }
   .Dropdown .Dropdown-menu > li > a:hover,
   .Dropdown .Dropdown-menu > li > button:hover {
-    background: #e8edf2;
+    background: #ededed;
   }
   .Dropdown .Dropdown-menu > .active > a,
   .Dropdown .Dropdown-menu > .active > button,
   .Dropdown .Dropdown-menu > .active > a:hover,
   .Dropdown .Dropdown-menu > .active > button:hover {
-    background: #536F90 !important;
+    background: #aaa !important;
     color: #fff !important;
   }
   .open.Dropdown .Dropdown-menu {
@@ -3305,7 +3305,7 @@ fieldset[disabled] .Button--danger {
     margin: 0;
   }
   .dropdown-backdrop {
-    background: rgba(83, 111, 144, 0.9);
+    background: rgba(170, 170, 170, 0.9);
     opacity: 0;
     -webkit-transition: opacity 0.3s;
     -o-transition: opacity 0.3s;
@@ -3356,8 +3356,8 @@ fieldset[disabled] .Button--danger {
   padding: 8px 13px;
   font-size: 13px;
   line-height: 1.5;
-  color: #708aa9;
-  background-color: #e8edf2;
+  color: #8c8c8c;
+  background-color: #ededed;
   border: 2px solid transparent;
   border-radius: 4px;
   -webkit-transition: border-color .15s, background .15s;
@@ -3369,18 +3369,18 @@ fieldset[disabled] .Button--danger {
 .FormControl.focus {
   background-color: #fff;
   color: #111;
-  border-color: #536F90;
+  border-color: #aaa;
   outline: none;
 }
 .FormControl::-moz-placeholder {
-  color: #708aa9;
+  color: #8c8c8c;
   opacity: 1;
 }
 .FormControl:-ms-input-placeholder {
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .FormControl::-webkit-input-placeholder {
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .FormControl[disabled],
 .FormControl[readonly],
@@ -3398,11 +3398,11 @@ textarea.FormControl {
   font-size: 12px;
   line-height: 1.5em;
   margin-bottom: 10px;
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .LoadingIndicator {
   position: relative;
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .LoadingIndicator--inline {
   display: inline-block;
@@ -3421,7 +3421,7 @@ textarea.FormControl {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: rgba(83, 111, 144, 0.9);
+  background-color: rgba(170, 170, 170, 0.9);
   opacity: 0;
   -webkit-transition: 0.2s opacity;
   -o-transition: 0.2s opacity;
@@ -3492,9 +3492,9 @@ textarea.FormControl {
   display: block;
 }
 .Modal-body {
-  background-color: #e8edf2;
+  background-color: #ededed;
   padding: 25px 30px;
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .Modal-body .FormControl {
   background-color: #fff;
@@ -3510,7 +3510,7 @@ textarea.FormControl {
   border: 0;
   padding: 20px;
   text-align: center;
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .Modal-loading {
   position: absolute;
@@ -3560,7 +3560,7 @@ textarea.FormControl {
     left: 0;
     right: 0;
     z-index: 1000;
-    border-bottom: 1px solid #e8edf2;
+    border-bottom: 1px solid #ededed;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     -webkit-transition: box-shadow 0.2s, -webkit-transform 0.2s;
@@ -3686,7 +3686,7 @@ textarea.FormControl {
   content: ' ';
   display: block;
   position: absolute;
-  background: #536F90;
+  background: #aaa;
   top: 10px;
   right: 10px;
   width: 14px;
@@ -3742,7 +3742,7 @@ textarea.FormControl {
 }
 .Search-input {
   overflow: hidden;
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .Search-input:before {
   display: inline-block;
@@ -3779,7 +3779,7 @@ textarea.FormControl {
 }
 .DiscussionSearchResult-excerpt {
   margin-top: 3px;
-  color: #708aa9;
+  color: #8c8c8c;
   font-size: 11px;
 }
 .UserSearchResult .Avatar {
@@ -3806,7 +3806,7 @@ textarea.FormControl {
 .Select-caret {
   margin-left: -30px;
   pointer-events: none;
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .tooltip {
   position: absolute;
@@ -3895,7 +3895,7 @@ textarea.FormControl {
   list-style: none;
 }
 .PostsUserPage-list > li {
-  border-bottom: 1px solid #e8edf2;
+  border-bottom: 1px solid #ededed;
 }
 .PostsUserPage-list .Post {
   padding-top: 10px;
@@ -3909,7 +3909,7 @@ textarea.FormControl {
 }
 .PostsUserPage-discussion,
 .PostsUserPage-discussion a {
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .PostsUserPage-discussion a {
   font-style: italic;
@@ -3957,7 +3957,7 @@ textarea.FormControl {
 .Composer.minimized {
   height: 46px;
   cursor: pointer;
-  background: #e8edf2;
+  background: #ededed;
 }
 .Composer-controls {
   list-style: none;
@@ -3984,7 +3984,7 @@ textarea.FormControl {
 .ComposerBody-header h3 {
   margin: 0;
   line-height: 1.5em;
-  color: #536F90;
+  color: #aaa;
 }
 .ComposerBody-header h3,
 .ComposerBody-header h3 input,
@@ -4070,7 +4070,7 @@ textarea.FormControl {
     left: 0;
     right: 0;
     z-index: 1000;
-    border-bottom: 1px solid #e8edf2;
+    border-bottom: 1px solid #ededed;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     -webkit-transition: box-shadow 0.2s, -webkit-transform 0.2s;
@@ -4102,7 +4102,7 @@ textarea.FormControl {
     bottom: 0;
     left: 0;
     z-index: 1019;
-    background-color: rgba(83, 111, 144, 0.9);
+    background-color: rgba(170, 170, 170, 0.9);
     opacity: 0.9;
   }
   .minimized .ComposerBody-content {
@@ -4116,7 +4116,7 @@ textarea.FormControl {
   }
   .ComposerBody-header > li {
     display: block;
-    border-bottom: 1px solid #e8edf2;
+    border-bottom: 1px solid #ededed;
     padding: 10px 15px;
   }
   .minimized .ComposerBody-header > li {
@@ -4134,7 +4134,7 @@ textarea.FormControl {
     text-overflow: ellipsis;
   }
   .normal .ComposerBody-header > li:first-child h3 {
-    color: #708aa9;
+    color: #8c8c8c;
   }
   .ComposerBody-header h3,
   .ComposerBody-header h3 a,
@@ -4188,8 +4188,8 @@ textarea.FormControl {
     background: #fff;
   }
   .Composer.active:not(.fullScreen) {
-    -webkit-box-shadow: 0 0 0 2px #536F90, 0 2px 6px rgba(0, 0, 0, 0.35);
-    box-shadow: 0 0 0 2px #536F90, 0 2px 6px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0 0 0 2px #aaa, 0 2px 6px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 0 2px #aaa, 0 2px 6px rgba(0, 0, 0, 0.35);
   }
   .Composer.fullScreen {
     position: fixed;
@@ -4299,7 +4299,7 @@ textarea.FormControl {
   .TextEditor-controls {
     margin: 0 -20px 0 -110px;
     padding: 10px 20px;
-    border-top: 1px solid #e8edf2;
+    border-top: 1px solid #ededed;
   }
   .TextEditor-controls li {
     margin-right: 5px;
@@ -4356,7 +4356,7 @@ textarea.FormControl {
 }
 .DiscussionListItem-content {
   position: relative;
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .DiscussionListItem-main {
   color: inherit;
@@ -4439,15 +4439,15 @@ textarea.FormControl {
   }
 }
 .DiscussionListItem-relevantPosts .PostPreview {
-  background: #e8edf2;
+  background: #ededed;
   display: block;
   padding: 10px 15px;
   border-bottom: 2px dotted #fff;
-  color: #708aa9;
+  color: #8c8c8c;
   transition: border-color 0.2s;
 }
 .DiscussionListItem:hover .DiscussionListItem-relevantPosts .PostPreview {
-  border-color: #f2f5f8;
+  border-color: #f5f5f5;
 }
 .DiscussionListItem-relevantPosts .PostPreview .Avatar,
 .DiscussionListItem-relevantPosts .PostPreview time {
@@ -4460,7 +4460,7 @@ textarea.FormControl {
   border-radius: 4px 4px 0 0;
 }
 .DiscussionListItem-relevantPosts .PostPreview:hover {
-  background: #dfe5ec;
+  background: #e6e6e6;
   text-decoration: none;
 }
 @media (max-width: 767px) {
@@ -4472,7 +4472,7 @@ textarea.FormControl {
     padding-right: 50px;
   }
   .DiscussionListItem-content:active {
-    background: #e8edf2;
+    background: #ededed;
   }
   .DiscussionListItem-author {
     margin-left: -45px;
@@ -4513,14 +4513,14 @@ textarea.FormControl {
   }
   .DiscussionListItem-count {
     margin-right: -35px;
-    background: #e8edf2;
-    color: #708aa9;
+    background: #ededed;
+    color: #8c8c8c;
     border-radius: 4px;
     font-size: 12px;
     padding: 2px 6px;
   }
   .unread .DiscussionListItem-count {
-    background: #536F90;
+    background: #aaa;
     color: #fff;
     font-weight: bold;
   }
@@ -4539,7 +4539,7 @@ textarea.FormControl {
     transition: background 0.2s;
   }
   .DiscussionListItem:hover {
-    background: #f4f6f8;
+    background: #f6f6f6;
   }
   .DiscussionListItem:hover .DiscussionListItem-controls,
   .DiscussionListItem .DiscussionListItem-controls.open {
@@ -4591,7 +4591,7 @@ textarea.FormControl {
     margin-top: 21px;
     margin-right: -70px;
     width: 55px;
-    color: #708aa9;
+    color: #8c8c8c;
     font-size: 14px;
     padding-left: 21px;
   }
@@ -4626,7 +4626,7 @@ textarea.FormControl {
 @media (max-width: 767px) {
   .DiscussionPage-nav {
     margin: 0 -15px;
-    border-bottom: 1px solid #e8edf2;
+    border-bottom: 1px solid #ededed;
   }
   .DiscussionPage-nav > ul > li {
     margin: 15px;
@@ -4686,7 +4686,7 @@ textarea.FormControl {
     width: 400px;
     background: #fff;
     padding-bottom: 40px;
-    border-top: 1px solid #e8edf2;
+    border-top: 1px solid #ededed;
     -webkit-box-shadow: 0 6px 6px rgba(0, 0, 0, 0.35);
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.35);
     -webkit-transition: left 0.2s;
@@ -4707,7 +4707,7 @@ textarea.FormControl {
     border-radius: 0;
   }
   .DiscussionPage-list .DiscussionListItem.active {
-    background: #e8edf2;
+    background: #ededed;
   }
   .DiscussionPage-list .DiscussionListItem-controls {
     top: 5px;
@@ -4765,9 +4765,9 @@ textarea.FormControl {
 }
 .Hero {
   margin-top: -1px;
-  background: #e8edf2;
+  background: #ededed;
   text-align: center;
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .Hero h2 {
   margin: 0;
@@ -4859,13 +4859,13 @@ textarea.FormControl {
   margin-bottom: 20px;
 }
 .NotificationGrid {
-  background: #e8edf2;
+  background: #ededed;
   border-radius: 4px;
 }
 .NotificationGrid td,
 .NotificationGrid th {
   border-bottom: 1px solid #fff;
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .NotificationGrid td,
 .NotificationGrid th,
@@ -4901,7 +4901,7 @@ textarea.FormControl {
 }
 .NotificationGrid-checkbox.highlighted .Checkbox:not(.disabled),
 .NotificationGrid-checkbox .Checkbox:hover:not(.disabled) {
-  background: #dbe2ea;
+  background: #e3e3e3;
 }
 .NotificationList .loading-indicator {
   height: 100px;
@@ -4909,14 +4909,14 @@ textarea.FormControl {
 @media (min-width: 768px) {
   .NotificationList-header {
     padding: 12px 15px;
-    border-bottom: 1px solid #e8edf2;
+    border-bottom: 1px solid #ededed;
   }
   .NotificationList-header h4 {
     font-size: 12px;
     text-transform: uppercase;
     font-weight: bold;
     margin: 0;
-    color: #708aa9;
+    color: #8c8c8c;
   }
 }
 .NotificationList-header .Button {
@@ -4925,13 +4925,13 @@ textarea.FormControl {
   margin-right: -11px;
 }
 .NotificationList-empty {
-  color: #708aa9;
+  color: #8c8c8c;
   text-align: center;
   padding: 50px 0;
   font-size: 16px;
 }
 .NotificationGroup {
-  border-top: 1px solid #e8edf2;
+  border-top: 1px solid #ededed;
   margin-top: -1px;
 }
 .NotificationGroup:not(:last-child) {
@@ -4971,15 +4971,15 @@ textarea.FormControl {
 .Notification {
   display: block;
   padding: 8px 15px 8px 70px;
-  color: #708aa9 !important;
+  color: #8c8c8c !important;
   overflow: hidden;
 }
 .unread.Notification {
-  background: #e8edf2;
+  background: #ededed;
 }
 .Notification:hover {
   text-decoration: none;
-  background: #e8edf2;
+  background: #ededed;
 }
 .Notification .Avatar {
   width: 24px;
@@ -5047,13 +5047,13 @@ textarea.FormControl {
   }
 }
 .NotificationsDropdown .Dropdown-toggle.new .Button-icon {
-  color: #536F90;
+  color: #aaa;
 }
 .NotificationsDropdown-unread {
   position: absolute;
   top: 1px;
   left: 17px;
-  background: #708aa9;
+  background: #8c8c8c;
   color: #fff;
   font-size: 11px;
   font-weight: bold;
@@ -5071,7 +5071,7 @@ textarea.FormControl {
   }
 }
 .new .NotificationsDropdown-unread {
-  background: #536F90;
+  background: #aaa;
 }
 .Post {
   padding: 20px;
@@ -5095,11 +5095,11 @@ textarea.FormControl {
 }
 .Post-header {
   margin-bottom: 15px;
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .Post-header,
 .Post-header a {
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .Post-header > ul {
   list-style-type: none;
@@ -5170,20 +5170,20 @@ textarea.FormControl {
   margin-bottom: 1em;
 }
 .Post-body a {
-  border-bottom: 1px solid #e8edf2;
+  border-bottom: 1px solid #ededed;
   font-weight: 600;
 }
 .Post-body a:hover,
 .Post-body a:focus,
 .Post-body a:active {
   text-decoration: none;
-  border-color: #486e9b;
+  border-color: #b3a2a2;
 }
 .Post-body blockquote {
   font-size: inherit;
   border: 0;
-  background: #e8edf2;
-  color: #708aa9;
+  background: #ededed;
+  color: #8c8c8c;
   border-radius: 4px;
   padding: 8px 15px;
   border-top: 2px dotted #fff;
@@ -5267,7 +5267,7 @@ textarea.FormControl {
 .PostMeta .Dropdown-menu {
   width: 400px;
   padding: 10px;
-  color: #708aa9;
+  color: #8c8c8c;
 }
 @media (max-width: 767px) {
   .PostMeta .Dropdown-menu {
@@ -5294,7 +5294,7 @@ a.PostMeta-permalink {
 }
 .EventPost,
 .EventPost a {
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .EventPost a {
   font-weight: bold;
@@ -5317,7 +5317,7 @@ a.PostMeta-permalink {
 .Post-actions,
 .Post-footer a,
 .Post-actions a {
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .Post-footer a,
 .Post-actions a {
@@ -5366,7 +5366,7 @@ a.PostMeta-permalink {
   opacity: 1;
 }
 .PostPreview {
-  color: #708aa9;
+  color: #8c8c8c;
   padding-left: 50px;
   line-height: 1.7em;
 }
@@ -5461,8 +5461,8 @@ a.PostMeta-permalink {
   cursor: text;
   overflow: hidden;
   margin-top: 50px;
-  border: 2px dashed #e8edf2;
-  color: #708aa9;
+  border: 2px dashed #ededed;
+  color: #8c8c8c;
   border-radius: 10px;
 }
 .ReplyPlaceholder .Post-header {
@@ -5481,7 +5481,7 @@ a.PostMeta-permalink {
     margin-top: -18px;
   }
   .ReplyPlaceholder:hover {
-    border-color: #e8edf2;
+    border-color: #ededed;
   }
 }
 @media (min-width: 768px) {
@@ -5490,7 +5490,7 @@ a.PostMeta-permalink {
   }
 }
 .PostStream-item:not(:last-child) {
-  border-bottom: 1px solid #e8edf2;
+  border-bottom: 1px solid #ededed;
 }
 @media (max-width: 767px) {
   .PostStream-item:not(:last-child) {
@@ -5530,7 +5530,7 @@ a.PostMeta-permalink {
 .fakeText {
   display: inline-block;
   vertical-align: middle;
-  background: #e8edf2;
+  background: #ededed;
   height: 12px;
   width: 100%;
   margin-bottom: 20px;
@@ -5548,7 +5548,7 @@ a.PostMeta-permalink {
 .PostStream-timeGap {
   text-transform: uppercase;
   font-weight: bold;
-  color: #708aa9;
+  color: #8c8c8c;
   padding: 20px 20px 20px 85px;
   font-size: 12px;
 }
@@ -5596,7 +5596,7 @@ a.PostMeta-permalink {
 }
 .Scrubber a {
   margin-left: -5px;
-  color: #708aa9;
+  color: #8c8c8c;
 }
 .Scrubber a .fa {
   font-size: 14px;
@@ -5605,7 +5605,7 @@ a.PostMeta-permalink {
 .Scrubber a:hover,
 .Scrubber a:focus {
   text-decoration: none;
-  color: #486e9b;
+  color: #b3a2a2;
 }
 .Scrubber-scrollbar {
   margin: 8px 0 8px 3px;
@@ -5615,16 +5615,16 @@ a.PostMeta-permalink {
 }
 .Scrubber-before,
 .Scrubber-after {
-  border-left: 1px solid #e8edf2;
+  border-left: 1px solid #ededed;
 }
 .Scrubber-unread {
   position: absolute;
-  border-left: 1px solid #8fa4bc;
+  border-left: 1px solid #a6a6a6;
   width: 100%;
-  background-image: linear-gradient(to right, #e8edf2, rgba(232, 237, 242, 0) 10px, rgba(232, 237, 242, 0));
+  background-image: linear-gradient(to right, #ededed, rgba(237, 237, 237, 0) 10px, rgba(237, 237, 237, 0));
   display: flex;
   align-items: center;
-  color: #708aa9;
+  color: #8c8c8c;
   text-transform: uppercase;
   font-size: 11px;
   font-weight: bold;
@@ -5641,14 +5641,14 @@ a.PostMeta-permalink {
 .Scrubber-bar {
   height: 100%;
   width: 5px;
-  background: #536F90;
+  background: #aaa;
   border-radius: 4px;
   float: left;
   margin-left: -2px;
   transition: background 0.2s;
 }
 .disabled .Scrubber-bar {
-  background: #e8edf2;
+  background: #ededed;
 }
 .Scrubber-info {
   margin-top: -1.5em;
@@ -5661,7 +5661,7 @@ a.PostMeta-permalink {
   display: block;
 }
 .Scrubber-description {
-  color: #708aa9;
+  color: #8c8c8c;
 }
 @media (max-width: 767px) {
   .PostStreamScrubber .Dropdown-toggle {
@@ -5826,7 +5826,7 @@ a.PostMeta-permalink {
   }
   .Slidable .Slidable-underneath {
     display: none;
-    background: #536F90 !important;
+    background: #aaa !important;
     position: absolute;
     right: 0;
     top: 0;
@@ -5866,7 +5866,7 @@ a.PostMeta-permalink {
   }
 }
 .UserCard {
-  background: #e8edf2;
+  background: #ededed;
   background-size: 100% 100%;
 }
 .UserCard,
@@ -6055,4 +6055,74 @@ a.PostMeta-permalink {
 }
 .UserPage .UserCard-controls .Dropdown-toggle .Button-icon {
   display: none;
+}
+@media (min-width: 768px) {
+  .App {
+    padding-top: 84px;
+  }
+  .App:before {
+    background: rgba(255, 255, 255, 0.8);
+  }
+  .App::before {
+    height: 84px;
+  }
+  .App-header {
+    height: 84px;
+    padding: 24px 8px;
+    position: relative;
+  }
+  .Header-title {
+    background: url(https://www.pingxx.com/assets/img/logo-black.svg) 0 no-repeat;
+    height: 36px;
+    width: 120px;
+  }
+  .Header-title a {
+    text-indent: 15em;
+    display: block;
+    width: 130px;
+    height: 36px;
+    overflow: hidden;
+  }
+  .App-nav {
+    top: 84px;
+  }
+  .DiscussionPage-list {
+    top: 84px;
+  }
+  #header-primary-custom a {
+    padding: 8px 6px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+.item-locale {
+  display: none !important;
+}
+.scrolled.App:before {
+  -webkit-box-shadow: 0 2px 30px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.05);
+}
+.Post-footer > ul,
+.Post-actions > ul {
+  float: left;
+}
+@media (max-width: 1099px) and (min-width: 992px), (min-width: 1100px) {
+  .App-nav {
+    box-shadow: none;
+    border-right: 1px solid #e8ecf3;
+    z-index: 1;
+  }
+}
+@media (min-width: 992px) {
+  .IndexPage-nav .item-newArticle .Button {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media (min-width: 768px) {
+  .Modal--small {
+    max-width: 447px;
+  }
 }

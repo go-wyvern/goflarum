@@ -23,3 +23,80 @@
 @import "Slidable.less";
 @import "UserCard.less";
 @import "UserPage.less";
+
+@media (min-width: 768px) {
+    .App {
+        padding-top: 84px
+    }
+    .App:before {
+       background: rgba(255,255,255,0.8);
+    }
+
+    .App::before {
+        height: 84px
+    }
+
+    .App-header {
+        height: 84px;
+        padding: 24px 8px;
+        position: relative;
+    }
+
+    .Header-title {
+        background: url(https://www.pingxx.com/assets/img/logo-black.svg) 0 no-repeat;
+        height: 36px;
+        width: 120px
+    }
+
+    .Header-title a {
+        text-indent: 15em;
+        display: block;
+        width: 130px;
+        height: 36px;
+        overflow: hidden
+    }
+
+    .App-nav {
+        top: 84px
+    }
+
+    .DiscussionPage-list {
+        top: 84px
+    }
+
+    #header-primary-custom a {
+        padding: 8px 6px;
+        font-size: 14px;
+        color: rgba(0,0,0,.6);
+    } 
+}
+.item-locale{
+    display:none !important;
+}
+
+.scrolled.App:before {
+    -webkit-box-shadow: 0 2px 30px rgba(0,0,0,.05);
+    box-shadow: 0 2px 30px rgba(0,0,0,.05);
+}
+.Post-footer > ul, .Post-actions > ul{
+    float: left;
+}
+
+@media (max-width: 1099px) and (min-width: 992px), (min-width: 1100px){
+    .App-nav {box-shadow:none;border-right: 1px solid #e8ecf3;z-index: 1;}
+}
+
+@media (min-width: 992px){
+.IndexPage-nav .item-newArticle .Button {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+}
+
+@media (min-width: 768px){
+.Modal--small {
+    max-width: 447px;
+}
+}
